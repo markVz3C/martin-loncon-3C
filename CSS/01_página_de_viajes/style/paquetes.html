@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Paquetes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <div class="container">
+            <h1>Empresa de viaje</h1>
+            <nav>
+                <ul>
+                    <li><a href="indice.html">Inicio</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="paquetes.html">Paquetes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="paquetes">
+        <div class="container">
+            <h2> Destino de navegacion</h2>
+            <p><strong> Para poder elegir un Paquete debes de primero poner tu informacion Personal para poder contactarte en caso de que ocurra algo</strong></p>
+            <form action="paquetes" method="post">
+                <label for="nombre completo">nombre completo:</label>
+                <input type="nombre completo" id="nombre completo" name="nombre completo" required>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="Telefono">Telefono:</label>
+                <input type="Telefono" id="Telefono" name="Telefono" required>
+                <label for="direccion">Direccion:</label>
+                <textarea id="direccion" name="direccion" required></textarea>
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section id="paquetes">
+        <div class="container">
+            <h2>Nuestros paquetes mas populares</h2>
+            <div class="paquetes-container">
+                <div class="paquetes">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9pBuY4rmHhLCD3sHjkbpf-WY2fEVXvaADvA&s" alt="paquetes 1">
+                    <h3>Disfruta de una luna de miel en la ciudad mas romantica en paris</h3>
+                    <p>Precio: $989.267 + alojamiento por 5 dias y 5 noches</p>
+                </div>
+                <div class="paquetes">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1yWnEDILw64pZUsgmzE750F-Uhox5xyox4Q&s" alt="paquetes 2">
+                    <h3>Ven a visitar un hotel de lujo con muchas actividades y una vista al mar</h3>
+                    <p>Precio: $500.990 + comida pagada y habitacion, 4 dias y 5 noches</p>
+                </div>
+                <div class="paquetes">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKVvCGKJjAdFcgqn8Sem0maINyiquU5_Uhw&s" alt="paquetes 3">
+                    <h3>Ven a disfrutar del bing Ben en londres con sus hermosas calles y sitios tan iconicos</h3>
+                    <p>Precio: $600.000 + hotel 10 dias y 10 noches</p>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>&copy; 2024 Empresa de Viajes. Todos los derechos reservados</p>
+        </div>
+    </footer>
+</html>
