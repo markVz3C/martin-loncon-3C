@@ -16,7 +16,7 @@ body { /* Selección de body */
     /* Estilo de encabezado */
     header {
         background-color: #333; /* Establece el color de fondo */
-        color: #fff; /* Establece el color del texto */
+        color: #f1f1f1; /* Establece el color del texto */
         padding: 20px 0; /* Añade relleno superior e inferior */
     }
     
@@ -30,7 +30,7 @@ body { /* Selección de body */
     }
     /* Estilo a elementos de vinculo ancla de navegacion */
     nav ul li a{
-        color:#fff; /* Color a elemento Anchor */
+        color:#f5f4f4; /* Color a elemento Anchor */
         text-decoration: none; /* Quita subrayado de enlaces */
     }
     
@@ -41,7 +41,7 @@ body { /* Selección de body */
     #banner{
         background-image: url('../img/banner.png');/*Establece la imagen de fondo del banner*/
         background-size: cover; /* Ajusta la imagen al área del banner */
-        color: #fff; /* Establece color del texto */
+        color: #1b1212; /* Establece color del texto */
         text-align: center; /* Centra el texto del banner*/
         padding: 100px 0; /* Define relleno superior e inferior */
     }
