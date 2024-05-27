@@ -1,0 +1,46 @@
+body {
+    margin-top: 0px;
+}
+.container {
+    padding: 95px;
+}
+#orange-main {
+    background-color: #d15c19;
+    margin: auto;
+}
+
+#salmon-main {
+    background-color: #e5a685;
+    margin: 60px;
+}
+
+#blue-main {
+    background-color: #469fc7;
+    margin: 60px;
+}
+
+#sky-main {
+    background-color: #a0cae0;
+    margin: 60px;
+}
+
+#orange {
+    text-align: center;
+}
+
+#salmon {
+    text-align: center;
+}
+
+#blue {
+    text-align: center;
+}
+
+#sky {
+    text-align: center;
+}
+
+h2 {
+    font-family: AriaL;
+    color: black;
+}
