@@ -1,0 +1,26 @@
+body{
+    font-family: cursive;
+}
+.si{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+span{
+    color:aqua
+}
+ h2{
+    background-color: rgb(106, 52, 150);
+    font-family: cursive;
+    text-align: center;
+    color:white
+}
+
+.footer{
+    background-color: rgb(197, 237, 238);
+    text-align: end;
+    text-decoration: underline;
+    color:black;
+}
